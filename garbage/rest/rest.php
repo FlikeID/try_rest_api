@@ -51,7 +51,7 @@ function RESTapi($dataBase)
             } else {
                 echoJSON($data);
             }
-        } elseif ($URL[2] === 'exchange') {
+        } elseif ($URL[2] === 'T') {
 
             $products = checkGetParamProducts();
             if($products == 'error') return;
